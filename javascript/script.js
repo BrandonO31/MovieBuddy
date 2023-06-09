@@ -31,7 +31,7 @@ function addUser() {
         let linebreak = document.createElement("br");
         let divider = document.createElement("div")
         
-        divider.className = 'profiles'
+        divider.className = 'users'
 
         tempImg.src = users[user].photo;
         tempName = users[user].name;
@@ -40,11 +40,14 @@ function addUser() {
 
 
 
-        usersDiv.appendChild(divider)
-        usersDiv.append(tempImg);
-        usersDiv.append(tempName);
+        usersDiv.appendChild(divider);
         usersDiv.appendChild(linebreak);
-        usersDiv.append(tempEmail);
+        divider.append(tempImg, tempName , tempEmail );
+        // usersDiv.append(tempImg);
+        // usersDiv.append(tempName);
+        // usersDiv.append(tempEmail);
+
+
     }
     
 }
