@@ -1,8 +1,16 @@
-.profiles {
+#profiles {
     display: flex;
-
-
+    justify-content: space-around;
+    flex-direction: column;
 
 }
+
+.users {
+
+
+    border: rgb(102, 102, 153) 5px solid;
+    border-radius: 40px;
+}
+
 
     
