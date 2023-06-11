@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');*/
 
 * {
     font-family: sans-serif;
@@ -74,57 +74,7 @@ Navigation Bar */
 
 }
 
-/* Sign Up Form */
 
-.signup-form {
-    width: 500px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
-    background-color: rgb(241, 241, 241)    ;
-    box-sizing: unset;
-    padding: 20px;
-    margin: 8% auto 0;
-    text-align: center;
-}
-
-.signup-form h1 {
-    color: black;
-    margin-bottom: 30px;
-}
-
-.input-box {
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    height: 25px;
-    width: 85%;
-    border: 5px solid yellow;
-    outline: none;
-    font-size: 17px;
-}
-
-button {
-    color: white;
-    background-color: black;
-    height: 50px;
-    width: 90%;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 15px;
-    margin: 10px, 0;
-    margin-bottom: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-/* profiles */
-
-#profiles {
-
-    display: flex;
-
-
-}
 
 @media(max-width: 540px) {
 

@@ -1,15 +1,79 @@
-#profiles {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+
+
+h1 {
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    font-size: 65px;
+
+
+
+
+    background-color: #dddddd;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    color: #333;
+
 
 }
 
-.users {
 
 
-    border: rgb(102, 102, 153) 5px solid;
-    border-radius: 40px;
+
+#user_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+    /*border: green 5px solid;*/
+
+
+
+
+}
+
+.users{
+
+    flex-basis: calc(33.33% - 100px);
+    max-width: calc(33.33% - 200px);
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+
+    background-color: wheat;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+
+
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.userProfile_image {
+    border-radius: 35px;
+    border: rgba(0,0,0, .2) 2px solid;
+}
+
+
+#user_text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+
+
+
+
 }
 
 

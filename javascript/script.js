@@ -21,7 +21,7 @@ function organizeData() {
 function addUser() {
     let users = organizeData();
 
-    let usersDiv = document.querySelector("#profiles");
+    let userContainer = document.querySelector("#user_container");
 
     for (let user = 0; user < users.length; user++) {
 
@@ -29,23 +29,28 @@ function addUser() {
         let tempName = document.createElement("p");
         let tempEmail = document.createElement("p");
         let linebreak = document.createElement("br");
-        let divider = document.createElement("div")
+
+        let user_element = document.createElement("div");
+        let user_text_container = document.createElement('div');
         
-        divider.className = 'users'
+        user_element.className = 'users';
+        user_element.id = 'users_wrapper';
+        user_text_container.id = 'user_text';
 
         tempImg.src = users[user].photo;
-        tempName = users[user].name;
+        tempImg.className = 'userProfile_image';
+        tempName.innerText = users[user].name; // Set the text content using innerText
+        tempEmail.innerText = users[user].email;
         tempGender = users[user].gender;
-        tempEmail = users[user].email;
 
 
 
-        usersDiv.appendChild(divider);
-        usersDiv.appendChild(linebreak);
-        divider.append(tempImg, tempName , tempEmail );
-        // usersDiv.append(tempImg);
-        // usersDiv.append(tempName);
-        // usersDiv.append(tempEmail);
+
+        userContainer.appendChild(user_element);
+        userContainer.appendChild(linebreak);
+        user_text_container.append(tempName , tempEmail);
+        user_element.append(tempImg, user_text_container);
+
 
 
     }

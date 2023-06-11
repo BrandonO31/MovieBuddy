@@ -19,7 +19,7 @@ text-align: center;
 
 .signup-form {
     width: 500px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
     background-color: rgb(241, 241, 241)    ;
     box-sizing: unset;
     padding: 20px;
@@ -38,7 +38,7 @@ text-align: center;
     margin: 10px;
     height: 25px;
     width: 85%;
-    border: 5px solid yellow;
+    border: 1px solid yellow;
     outline: none;
     font-size: 17px;
 }
