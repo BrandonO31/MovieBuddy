@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieBuddy - Contact</title>
     <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <header>
     <div id="navbar">
@@ -22,18 +23,27 @@
     </div>
 
 </header>
+<br>
+
 <body>
 
-    <h1 id="header"> Have any comments, questions or concerns about our page? Get in contact with us!</h1>
+<h1 id="header"> Have any comments, questions or concerns about our page? Get in contact with us!</h1>
 
-<div class="icons">
-   <img src="assets/instagram.png" alt="" srcset="">
-   <img src="assets/gmail.png" alt="" srcset="">
+<div id = "contact_container">
+
+
+    <form id = "suggestion_box_container"action="/submit" method="post">
+        <input type="text" name="textbox" placeholder="..." />
+        <input type="submit" name = "submit_button" value="Submit" />
+    </form>
+
+    <div id="icons_container">
+        <img src="assets/instagram.png" alt="" srcset="">
+        <img src="assets/gmail.png" alt="" srcset="">
+    </div>
+
 </div>
-
 <br>
-</br>
-
 
 </body>
 </html>
