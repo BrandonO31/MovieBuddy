@@ -4,14 +4,12 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color: rgb(209, 209, 209);
-}
 
 /* Header */
 
 #header {
 text-align: center;
+
 
 }
 
@@ -23,8 +21,10 @@ text-align: center;
     background-color: rgb(241, 241, 241)    ;
     box-sizing: unset;
     padding: 20px;
-    margin: 8% auto 0;
+    margin: 5% auto 0;
+    margin-bottom: 200px;
     text-align: center;
+
 }
 
 .signup-form h1 {

@@ -5,12 +5,12 @@
 }
 
 
-/* text */
+@media(max-width: 540px) {
 
+    body {
+        font-size: 150%;
 
+    }
 
-#intro {
-    text-align: center;
 
 }
-
