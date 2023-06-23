@@ -1,3 +1,7 @@
+// testing out movie API
+
+
+// Random User
 function organizeData() {
 
     let organizedData = [];
